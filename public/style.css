@@ -43,13 +43,14 @@ h3 {
 }
 
 .resume {
-    width: 870px;
-    background: #fbfbfb;
+    width: 1000px;
+    background: whitesmoke;
     margin: 20px auto;
     /* border: 1px solid cyan; */
     box-shadow: 0 0 20px -3px cyan;
     position: relative;
     display: flex;
+    justify-content: space-between;
 }
 
 .resume::before {
@@ -85,9 +86,9 @@ h3 {
 }
 
 .resume .base {
-    width: 225px;
+    width: 250px;
     padding: 30px 15px;
-    background: rgba(238, 238, 238, 0.6);
+    background:black;
 }
 
 .resume .base .profile {
@@ -126,11 +127,15 @@ h3 {
     font-size: 1.5em;
     font-weight: normal;
 }
-
+.resume .base .about I{
+    color: white;
+}
 .resume .base .contact div {
     line-height: 24px;
 }
-
+.resume .base .contact span{
+    color: white;
+}
 .resume .base .contact div a:hover {
     color: blue;
 }
